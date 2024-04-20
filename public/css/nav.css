@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-size: 1px;
+    width: auto; 
+}
+/*header-star */
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.top-block{     
+    width: auto;
+    background-color: rgb(6,61,108);      
+    height: 31px;            
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(10,96,172);
+}
+.display-Information{
+    padding: 8px 0;
+}
+.display-Information,a{           
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgb(255,255,255);
+}
+/*header-end */
+
+/* nav start */
+@media (min-width: 1092px) {
+    nav{            
+        height: auto;
+        background-color: rgb(6,61,108);                      
+        display: flex;
+        justify-content: center;            
+    }
+    .nav-content-area{                     
+        margin: 1.1rem 1.5rem;
+    }
+    .nav-icon>img{
+        height: 6.1rem;
+    }
+    .nav-icon{                     
+        float: left;
+        width: 325px;
+        height: 72px;
+        padding:6px 15px 6px 0px;            
+    }
+    .nav-functional-area{                
+        float: left;
+        height: 72px;
+        padding:6px 15px;
+
+        
+    }
+    .nav-functional-area>ul{
+        height: 100%;
+        margin: 0;                
+    }
+    .nav-functional-area>ul>li{
+        display: inline;
+        height: 6.1rem;
+        line-height: 6.1rem;
+       
+        
+    }
+    .nav-functional-area>ul>li>a{
+        font-size: 1.4rem;     
+        font-weight:bold;           
+        text-align: center;
+        margin: 2.25rem;
+    }
+    .nav-functional-area>ul>li>button{
+        height: 6.1rem;
+        font-size: 1.4rem;     
+        font-weight:bold;            
+        margin: 2.25rem;
+        margin-top:0 ;
+        margin-bottom: 11px;
+    }
+    .nav-isShow-button{
+        display: none;
+    }
+    
+}
+@media (max-width: 1091px) {
+    nav{            
+        height: auto;
+        background-color: rgb(6,61,108);                      
+        display: flex;
+        justify-content: center;  
+        border-bottom: 1px solid  rgb(10,96,172);                    
+    }
+    .nav-content-area{    
+        margin: 11px 15px;            
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .nav-icon{                   
+        margin: 0 auto;                                                 
+        width: 325px;
+        height: 72px;
+        padding:6px 15px 6px 0px;                          
+    }
+    .nav-icon>img{                
+        height: 61px;
+    }
+    .nav-functional-area{   
+        height: 72px;
+        padding:6px 15px;
+        width: 100vw;
+        border-top: 1px solid  rgb(10,96,172);
+        
+    }
+    .nav-functional-area>ul{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto; 
+        width: 85%;
+        height: 100%;
+                  
+    }
+    .nav-functional-area>ul>li{
+        display: inline;
+        height: 6.1rem;
+        line-height: 6.1rem;
+       
+        
+    }
+    .nav-functional-area>ul>li>a{
+        font-size: 1.4rem;     
+        font-weight:bold;           
+        text-align: center;
+        margin: 1.5rem;
+    }
+    .nav-functional-area>ul>li>button{
+        height: 6.1rem;
+        font-size: 1.4rem;     
+        font-weight:bold;            
+        margin: 2.25rem;
+        margin-top:0 ;
+        margin-bottom: 11px;
+    }
+    .nav-isShow-button{
+        display: none;
+    }
+    
+}
+@media (max-width: 771px) {
+    nav{            
+        height: auto;
+        background-color: rgb(6,61,108);                      
+        display: flex;
+        justify-content: center;  
+        border-bottom: 1px solid  rgb(10,96,172);                    
+    }
+    .nav-content-area{    
+        margin: 11px 15px;            
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav-icon{                   
+        margin: 0 auto;                                                 
+        width: 325px;
+        height: 72px;
+        padding:6px 15px 6px 0px;                          
+    }
+    .nav-icon>img{                
+        height: 61px;
+    }
+
+    .nav-functional-area{
+        display: none;
+    }
+    .nav-isShow-button{
+        margin-top: 10px;
+        display: block;
+        width:100vw;
+        display: flex;
+        justify-content: center;
+        padding: 0 15px;
+    }
+    .nav-isShow-button>button{
+        width: 100%;
+    }
+}
+/* main-dropdown-nav start */
+.nav-Services-functionals,.nav-GSOC-functionals,.nav-About-functionals{
+    width: 250px;
+}
+
+.nav-Services-functionals>a,.nav-GSOC-functionals>a,.nav-About-functionals>a{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid gainsboro;
+    padding: 15px;
+}
+
+.nav-Services-functionals>a{
+    position: relative;
+    
+}
+/* main-dropdown-nav end */
+
+/* side-dropdown-nav start */
+.Menu-functional-area{           
+    width: 250px;  
+    height: 100vh;
+    position: fixed; /* 固定侧边栏 */
+    top: 0;
+    right: 0;
+    bottom: 0;              
+    display: none;                       
+    padding: 15px 0; 
+    background-color: rgb(6,61,108);
+    z-index: 3;
+
+}
+
+.Menu-close-btn{
+    background-color: rgb(6,61,108);
+    padding-left:15px ;
+    margin-bottom: 10px;
+}
+.Menu-close-btn>svg{
+    color: white;            
+}
+.Menu-functionals{
+    display: flex;
+    flex-direction: column; 
+    overflow: hidden;           
+}
+.Menu-functionals>a{
+    text-indent: 1.5rem;
+    text-align: left;
+    line-height: 5rem;
+    border-bottom: 1px solid rgb(10,96,172) ;
+}
+.Menu-functionals>a,.Menu-functionals>button{
+    height: 5rem;            
+}        
+.Services-functionals,.GSOC-functionals,.About-functionals{
+    display: none;
+    height: auto;
+    padding:0 15px;
+}
+.Services-functionals>a,.GSOC-functionals>a,.About-functionals>a{ 
+    display: inline-block;           
+    font: 14px;
+    height: 60px;
+    width: 100%;
+    border-top: 1px solid white;            
+    text-align:left ;       
+    padding-top: 23px;
+    margin-bottom: 15px;
+}
+/* side-dropdown-nav end */
+/* nav end */

@@ -1,0 +1,20 @@
+.text-white{
+    border-radius: 0;
+    height: 77vh;
+}
+
+/* banner image */
+.text-white .card-img {
+    height: 100%;
+    
+}
+
+/* banner words */
+.text-center {  
+    font-size: 45px; 
+    font-weight: 700;
+    max-height: 73vh;
+    overflow: hidden;
+} 
+
+
