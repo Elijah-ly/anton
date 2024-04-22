@@ -4,10 +4,10 @@
     text-decoration: none;
     list-style: none;
 }
-body{
-    font-size: 1px;
-    width: auto; 
+html{
+    font-size: 10px;
 }
+
 /*header-star */
 header{
     position: sticky;
@@ -18,7 +18,6 @@ header{
     font-weight: 700;
 }
 .top-block{     
-    width: auto;
     background-color: rgb(6,61,108);      
     height: 31px;            
     display: flex;

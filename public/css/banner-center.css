@@ -1,0 +1,27 @@
+
+/* banner center style */
+
+.container-full{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-weight: 300;
+}
+
+.container-full .banner-text-center .card .card-body .card-title{
+    font-size: 3.6rem;
+}
+
+.container-full .banner-text-center .card .card-body .card-text{
+    font-size: 1.7rem;
+    color: #757575;
+}
+
+.container-full .banner-text-center .card .card-body .btn{
+    font-size: 1.6rem;
+    background-color: #24A7ED;
+    border: 1px solid #24a7ed;
+    padding: 1.2rem 2.4rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+

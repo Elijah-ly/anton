@@ -1,6 +1,10 @@
 
 /* pageContentStart */
 
+.card{
+    border: 0;
+}
+
 .container-full-screen {
     background-color: #0F2F4F;
 }
@@ -37,14 +41,12 @@
         flex-direction: column;
         align-items: center;
     }
-
     .container-full-screen .card-text{
         font-size: 1.4rem;
         color: #75756A;
     }
  }
 
- /* 小于350px */
  @media (max-width: 350px) { 
     .container-full-screen .container .card{
        width: 100%;
