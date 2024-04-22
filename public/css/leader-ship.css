@@ -19,18 +19,15 @@
 .container-full-screen .card-body{
     background-color: #0F2F4F;
     text-align: center;
-    /* width: 35rem; */
 }
 .container-full-screen .card-title{
     font-size: 2.4rem;
     color: #F3F6FA;
-    /* overflow: hidden; */
 }
 
 .container-full-screen .card-text{
     font-size: 1.8rem;
     color: #75756A;
-    /* overflow: hidden; */
 }
 
 /* 小于768px */
@@ -44,14 +41,11 @@
     .container-full-screen .card-text{
         font-size: 1.4rem;
         color: #75756A;
-        /* overflow: hidden; */
     }
  }
+
  /* 小于350px */
  @media (max-width: 350px) { 
-    /* .container{
-        width: 40%;
-    } */
     .container-full-screen .container .card{
        width: 100%;
     }
