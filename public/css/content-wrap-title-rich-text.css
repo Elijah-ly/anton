@@ -39,24 +39,20 @@
     letter-spacing: 0.08rem;
 }
 
-
-@media (max-width: 575.98px) {
-    .text-white{
-        height: 36rem;
-    }
- }
-
-@media (min-width: 576px) and (max-width: 767.98px) {  }
-
-@media (min-width: 768px) and (max-width: 991.98px) {
+/* wrap */
+@media (max-width: 992px) {
     .text-white{
         height: 30rem;
     }
  }
+@media (max-width: 575.98px) {
+    .card-img-overlay{
+        margin-top: -2rem;
+    }
+ }
 
- @media (min-width: 992px) and (max-width: 1199.98px) {  }
 
- @media (min-width: 1200px) {}
+
 
 
 

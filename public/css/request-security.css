@@ -1,19 +1,15 @@
+
+/* content wrap title style start */
+
+/* 初始高度 */
 .text-white{
-    border-radius: 0;
-    height: 77vh;
+    height: 40rem;
+}
+/* 移动端 */
+@media (max-width: 992px) { 
+    .text-white{
+        height: 14.3rem;
+    }
 }
 
-/* banner image */
-.text-white .card-img {
-    height: 100%;
-    width: 100%;
-    
-}
-
-/* banner words */
-.text-center {  
-    font-size: 45px; 
-    font-weight: 700;
-    max-height: 73vh;
-    overflow: hidden;
-} 
+/* content wrap title style end */
