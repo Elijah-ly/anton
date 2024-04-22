@@ -1,24 +1,26 @@
-/* bannerStart */
+
+/* content wrap title rich text style */
+
 .text-white{
     border-radius: 0;
     height: 60rem;
     z-index: 1;
 }
 
-/* banner image */
+/* image */
 .text-white .card-img {
     width: 100%; /* 图片宽度与容器相同 */  
     height: 100%; /* 保持图片的纵横比 */  
     object-fit: cover; /* 图片填充容器，保持纵横比，可能会裁剪 */  
 }
 
-/* banner words area */
+/* words area */
 .card-img-overlay{
     text-align: center;
     margin-top: -6rem;
 }
 
-.text-center {  
+.title-text-center {  
     font-size: 4.5rem; 
     font-weight: 700;
     max-width: 70rem;
@@ -27,12 +29,22 @@
     letter-spacing: 0.28rem; /* 文字间距 */
 } 
 
+.rich-text-center {
+    margin-top: 3rem;
+    max-width: 70rem;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #8fa3b7;
+    overflow: hidden;
+    letter-spacing: 0.08rem;
+}
+
+
 @media (max-width: 575.98px) {
     .text-white{
         height: 36rem;
     }
  }
-
 
 @media (min-width: 576px) and (max-width: 767.98px) {  }
 
@@ -42,10 +54,9 @@
     }
  }
 
- @media (min-width: 992px) and (max-width: 1199.98px) { }
+ @media (min-width: 992px) and (max-width: 1199.98px) {  }
 
- @media (min-width: 1200px) { }
+ @media (min-width: 1200px) {}
 
-/* bannerEnd */
 
 
