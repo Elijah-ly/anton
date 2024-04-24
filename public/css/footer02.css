@@ -2,15 +2,17 @@
 footer{
     width: 100%;
     background-color: rgb(16,32,58);
+    /* padding: 20px; */
 }
 @media (max-width: 1110px) {
     footer>div{
         width: 80%;
         margin: 0 auto;
+        /* border: 1px solid greenyellow; */
         display: flex;
         flex-direction: column;        
     }
-    .generic:nth-child(2){
+    .gineric:nth-child(2){
         display: none;
     }
     .paragraph,.title{
@@ -21,11 +23,12 @@ footer{
     footer>div{
         width: 80%;
         margin-left:24rem;
+        /* border: 1px solid greenyellow; */
         display: flex;
         flex-direction: row;
         
     }
-    .generic:nth-child(2){
+    .gineric:nth-child(2){
         display: block;
     }
     
@@ -33,15 +36,14 @@ footer{
         text-align: left;
     }
 }
-.generic .title{
+.gineric>.title{
     font-size:1.8rem;
     font-weight: 500;
-    color: #fff;
+    color: white;
     margin: 0 0 1.5rem;
 }
 .paragraph{
     margin: 0 0 10px;
-    color: #4C6A7B;
 }
 .paragraph>a{
     color: rgb(76,106,132);
@@ -50,23 +52,23 @@ footer>div>div{
     width:100%;
     font-size: 1.8rem;
     margin-left: 15px;
+    /* border: 1px solid gray; */
     flex-direction: column;
     
 }
-.generic-icon>a{
+.gineric-icon>a{
     margin-right:1.5rem ;
 }
-.generic-icon>a:hover{
+.gineric-icon>a:hover{
     text-decoration: none;
 }
-
-/* button-container start */
-.button-container{
-    background-color: #fff;
+/* botton-container start */
+.botton-container{
+    background-color: white;
     width: 100vw;
     margin: 0;
 }
-.button-container-area{
+.botton-container-area{
     width: 40%;
     margin: 0 auto;
     font-size: 1.2rem;
