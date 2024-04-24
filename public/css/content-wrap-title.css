@@ -39,6 +39,18 @@
     }
  }
 
+ @media (max-width: 375px) {
+    .card-img-overlay{
+        margin-top: -2rem;
+    }
+    .card .card-img-overlay .text-center {
+       max-width: 100%;
+    }
+    .text-white{
+        height: 45rem;
+    }
+ }
+
 
 
 

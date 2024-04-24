@@ -1,15 +1,20 @@
 
 /* content wrap title style start */
 
-/* 初始高度 */
-.text-white{
-    height: 40rem;
+.card{
+    border: 0;
 }
+
+
+/* 初始高度 */
+/* .text-white{
+    height: 40rem;
+} */
 /* 移动端 */
-@media (max-width: 992px) { 
+/* @media (max-width: 992px) { 
     .text-white{
         height: 14.3rem;
     }
-}
+} */
 
 /* content wrap title style end */
