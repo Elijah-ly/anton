@@ -22,21 +22,17 @@ header{
     z-index: 2;
     font-weight: 700;
 }
-.top-block{     
-    background-color: rgb(6,61,108);      
-    height: 31px;            
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    border-bottom: 1px solid rgb(10,96,172);
-}
-.display-Information{
-    padding: 8px 0;
-}
-.display-Information,a{           
+
+.nav-content-area .nav-functional-area a{           
     font-size: 1.4rem;
     text-align: center;
-    color: rgb(255,255,255);
+    color: #fff;
+    text-decoration: none !important;
+      
+}
+.nav-content-area .nav-functional-area a:hover{           
+    color: #428BCA; 
+      
 }
 /*header-end */
 
@@ -271,5 +267,7 @@ header{
     padding-top: 23px;
     margin-bottom: 15px;
 }
+
+
 /* side-dropdown-nav end */
 /* nav end */
