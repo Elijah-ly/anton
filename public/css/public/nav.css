@@ -27,12 +27,11 @@ header{
     font-size: 1.4rem;
     text-align: center;
     color: #fff;
-    text-decoration: none !important;
+    text-decoration: none;
       
 }
 .nav-content-area .nav-functional-area a:hover{           
-    color: #428BCA; 
-      
+    color: #428BCA;  
 }
 /*header-end */
 
