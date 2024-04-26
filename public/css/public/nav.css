@@ -235,7 +235,7 @@ header{
     margin-bottom: 10px;
 }
 .Menu-close-btn>svg{
-    color: white;            
+    color: #fff;            
 }
 .Menu-functionals{
     display: flex;
@@ -247,6 +247,7 @@ header{
     text-align: left;
     line-height: 5rem;
     border-bottom: 1px solid rgb(10,96,172) ;
+    color: #fff;
 }
 .Menu-functionals>a,.Menu-functionals>button{
     height: 5rem;            
@@ -261,10 +262,11 @@ header{
     font: 14px;
     height: 60px;
     width: 100%;
-    border-top: 1px solid white;            
+    border-top: 1px solid #fff;            
     text-align:left ;       
     padding-top: 23px;
     margin-bottom: 15px;
+    color: #fff;
 }
 
 
