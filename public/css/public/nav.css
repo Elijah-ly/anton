@@ -248,6 +248,7 @@ header{
     line-height: 5rem;
     border-bottom: 1px solid rgb(10,96,172) ;
     color: #fff;
+    font-size: 1.4rem;
 }
 .Menu-functionals>a,.Menu-functionals>button{
     height: 5rem;            
@@ -267,6 +268,7 @@ header{
     padding-top: 23px;
     margin-bottom: 15px;
     color: #fff;
+    font-size: 1.4rem;
 }
 
 
