@@ -1,0 +1,51 @@
+.card{
+    border: 0;
+}
+.container-full-screen .card-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.container-full-screen .card-text{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #757575;
+    letter-spacing: 0.07rem;
+    line-height: 3rem;
+}
+
+.container-full-screen .container .list .item{
+    font-weight: 300;
+    font-size: 1.7rem;
+    letter-spacing: 0;
+    line-height: 4.7rem;
+}
+
+.container-full-screen .container .list .item i{
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    color: #24A7ED;
+}
+
+@media (max-width: 992px) { 
+    .container-full-screen .container .card-body>.card-title,.card-body .card-text {
+       text-align: center;
+    }
+/* 改变图文顺序 */
+    .row {  
+        display: flex;  
+    }
+    .col-lg-6:first-child {  
+        order: 2; /* 将第一个.col-lg-6文本元素放在第二个位置 */  
+    }  
+    .col-lg-6:last-child {  
+        order: 1; /* 将第二个.col-lg-6图片元素放到第一个位置 */  
+    }  
+    #contant2-iamge{
+        order: 1;
+    }
+    #contant2-text{
+        order: 2;
+    }
+}
+

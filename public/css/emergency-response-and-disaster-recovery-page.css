@@ -1,0 +1,214 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+/*  */
+
+/* contant start */
+.contant{
+    height: auto;
+    width: 100vw;
+    
+}
+i{
+    color: #24A7ED;
+}
+
+
+/* contant-area-3 start */
+.contant-area-3{
+    width: 100vw;
+    background-color: rgb(238,241,244);
+}
+.container{
+    margin: 0 auto;
+    height: 24.4rem;
+
+}
+.container>div>div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container>div>div>h5{
+    margin: 2rem 0 1rem;
+    text-align: center;
+}
+.container>div>div>div{
+    display: flex;
+    justify-content: center;
+}
+.Act-Of-Terror{
+    width: 11rem;
+    border-radius: 50%;
+}
+@media (min-width: 773px) {
+    .contant-area-3{
+        height: 264px;
+    }
+    
+    
+}
+@media (max-width: 773px) {
+    .contant-area-3{        
+        height: 858px;
+        
+    }
+    .container>div>div{
+        height: 20.4rem;
+    }
+ }
+/*contant-area-3 end  */
+
+/*contant-area-5 start  */
+
+
+/* 5 */
+.contant-area-5 .card-title{
+    text-align: center;
+}
+.contant-area-5 img{
+    height: 35rem;
+   
+}
+
+
+.contant-area-5 .container5-box{
+    /* height: calc(95%) */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+@media (min-width: 416px) {
+    .contant-area-5 img{
+       height: 35rem;       
+    }    
+}
+@media (max-width: 403px) {
+    .contant-area-5 img{
+        width: calc(100%);
+        height: auto;
+    }
+ }
+ @media (min-width: 997px) {
+    .contant-area-5 img{
+        /* height: 80vw; */
+        height: 350px;
+    }
+ }
+ @media (max-width: 750px) {
+    
+    .contant-area-5 .container5-box{
+        /* height: calc(95%) */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+ }
+
+
+/*contant-area-5 end  */
+
+
+/* <!-- contant-area-6 start --> */
+/* 991px    671px */
+.contant-area-6>div{
+    width: calc(100%);
+    height: auto;
+    background-color: rgb(238,241,244);
+}
+@media (max-width: 1101px) {
+   .contant-area-6 .card-title{
+        text-align: center;
+   }
+ }
+ @media (min-width: 1101px) {
+    .contant-area-6 .card-title{
+        text-align: left;
+   }
+ }
+ @media (max-width: 727px) {    
+    .contant-area-6 #area-6-contant{
+        order: 2;
+    }
+   
+ }
+
+/* <!-- contant-area-6 end --> */
+
+ /* contant-area-7 start  */
+@media (max-width:822px) {
+   .card-title{
+        text-align: center;
+    }
+    .container5-box{
+        text-align: center;
+    }
+}
+
+/* contant-area-7 end  */
+
+ /* contant-area-8 start  */
+@media (max-width: 996px) {    
+     #area-8-contant,#area-10-contant{
+        order: 2;
+    }
+    #area-8-image,#area-10-image{
+        order:1 ;
+    }
+   
+ }
+ @media (min-width: 996px) {    
+    #area-8-contant,#area-10-contant{
+       order: 1;
+   }
+   #area-8-image,#area-10-image{
+       order:2;
+   }
+  
+}
+
+
+/* banner center style */
+
+.banner-area>.container-12{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-weight: 300;
+}
+
+.banner-area .container-12 .banner-side .card .card-body .card-title{
+    font-size: 3.6rem;
+}
+
+.banner-area .container-12 .banner-side .card .card-body .card-text{
+    font-size: 1.7rem;
+    color: #757575;
+}
+
+.banner-area .container-12 .banner-side .right-btn .btn{
+    font-size: 1.6rem;
+    background-color: #24A7ED;
+    border: 1px solid #24a7ed;
+    padding: 1.2rem 2.4rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+
+@media (max-width: 992px) { 
+    .banner-area  .container-12 .banner-side{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-area .container-12 .banner-side .card .card-body .card-text{
+        text-align: left;
+    }
+}
