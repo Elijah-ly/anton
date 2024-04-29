@@ -1,74 +1,94 @@
-
-footer{
-    width: 100%;
-    background-color: rgb(16,32,58);
-}
-@media (max-width: 1110px) {
-    footer>div{
-        width: 80%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;        
-    }
-    .generic:nth-child(2){
-        display: none;
-    }
-    .paragraph,.title{
-        text-align: center;
-    }
-}
-@media (min-width:1110px) {
-    footer>div{
-        width: 80%;
-        margin-left:24rem;
-        display: flex;
-        flex-direction: row;
-        
-    }
-    .generic:nth-child(2){
-        display: block;
-    }
-    
-    .paragraph,.title{
-        text-align: left;
-    }
-}
-.generic .title{
-    font-size:1.8rem;
-    font-weight: 500;
-    color: #fff;
-    margin: 0 0 1.5rem;
-}
-.paragraph{
-    margin: 0 0 10px;
-    color: #4C6A7B;
-}
-.paragraph>a{
-    color: rgb(76,106,132);
-}
-footer>div>div{    
-    width:100%;
-    font-size: 1.8rem;
-    margin-left: 15px;
-    flex-direction: column;
-    
-}
-.generic-icon>a{
-    margin-right:1.5rem ;
-}
-.generic-icon>a:hover{
-    text-decoration: none;
+body {
+	margin: 0;
+	padding: 0;
 }
 
-/* button-container start */
-.button-container{
-    background-color: #fff;
-    width: 100vw;
-    margin: 0;
+.navbar {
+	background-color: #0f3b6c;
+	margin: 0;
+	padding: 0;
 }
-.button-container-area{
-    width: 40%;
-    margin: 0 auto;
-    font-size: 1.2rem;
-    text-align: center;
+
+.collapse>ul {
+	margin-left: 10%;
+}
+
+.form-inline>button {
+	width: 206px;
+	height: 104px;
+	border: none;
+	background-color: #C4283F;
+	color: #fff;
+	margin-right: 5px;
+	border-radius: 0;
+}
+
+.dropdown-item:hover {
+	background-color: #0F3B6C;
+	color: #fff;
+}
+
+.dropdown-menu {
+	margin-top: -5px;
+	background-color: #272A2E;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+.dropdown-menu {
+	display: none;
+}
+
+.overlay::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 700px;
+	background-color: rgba(15, 59, 108, 0.5);
+}
+
+.title-con {
+	width: 100%;
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.title-con i {
+	padding: 0 30px;
+	color: #0F3B6C;
+}
+
+.content {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+}
+
+.button {
+	width: 180px;
+	height: 60px;
+	background-color: #C4283F;
+	color: white;
+	border: none;
+	font-size: 16px;
+	margin-right: 15px;
+	border-radius: 4px;
+}
+
+.icons>i {
+	margin: 10px;
+}
+
+.title-text {
+	font-size: 20px;
+	margin-bottom: 46px;
+	margin-top: 46px;
 }

@@ -4,77 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
     <link rel="stylesheet" href="../public/bootstrap/bootstrap-4.6.1-dist/css/bootstrap.css">
     <link rel="stylesheet" href="../public/font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="../public/css/index.css">
     <link rel="stylesheet" href="../public/css/index-media.css">
+    <link rel="stylesheet" href="../public/css/public/nav.css">
     <script src="../public/js/jquery-3.7.1.min.js"></script>
     <script src="../public/bootstrap/bootstrap-4.6.1-dist/js/bootstrap.js"></script>
-    <!-- icon -->
-    <link rel="icon" href="../favicon.ico">
+    <script src="../public/js/menu-show.js"></script>
+    <title>HOME</title>
 </head>
 
 <body>
     <!-- nav start -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <a class="navbar-brand" href="#" style="margin-left: 10px;">
-            <img src="../public/images/pages-pic-01.png" width="260" height="52" alt="">
-        </a>
-        <button class="btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-bars fa-2x" style="color: #fff;"></i>
-        </button>
+    <header>
+        <nav>
+            <div class="nav-content-area">
+                <div class="nav-icon">
+                    <img src="../public/images/pages-pic-01.png" alt="">
+                </div>
+                <div class="nav-functional-area">
+                    <ul class="nav-functional-area-ul">
+                        <li style="position: relative;" class="nav-functional-area-list">
+                            <a href="./home.html" mousemove="">HOME</a>
+                        </li>
+                        <li style="position: relative;" class="nav-functional-area-list">
+                            <a href="#mk1">SERVICE</a>
+                            <ul
+                                style="display: none; position: absolute ; top: 25; left: 15; background-color:rgb(6,61,108); width: 25rem;border-top: 1px solid rgb(10,96,172); text-indent: 1.5rem;">
+                                <li><a href="./guarding-service.html">Guarding Service</a></li>
+                                <li><a href="./system-service.html">System Service</a></li>
+                                <li><a href="./consulting-service.html">Consulting Service</a></li>
+                            </ul>
+                        </li>
+                        <li style="position: relative;" class="nav-functional-area-list">
+                            <a href="./about-us.html">ABOUT</a>
+                        </li>
+                        <li><a href="./contact.html" class="single-functions">CONTACT</a></li>
+                        <li><button type="button" class="btn btn-danger" style="background-color: #C4283F;"><a href="#"
+                                    class="redirect">Request Security</a></button></li>
+                    </ul>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                        aria-expanded="false" style="color: #fff; padding-right: 20px;">
-                        SERVICES
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#" style="color: #fff;">Action</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                        aria-expanded="false" style="color: #fff; padding-right: 20px;">
-                        GSOC
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#" style="color: #fff;">Action</a>
-                        <a class="dropdown-item" href="#" style="color: #fff;">Another action</a>
-                        <a class="dropdown-item" href="#" style="color: #fff;">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                        aria-expanded="false" style="color: #fff; padding-right: 20px;">
-                        ABOUT
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#" style="color: #fff;">Action</a>
-                        <a class="dropdown-item" href="#" style="color: #fff;">Another action</a>
-                        <a class="dropdown-item" href="#" style="color: #fff;">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: #fff; padding-right: 20px;">CONTACT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: #fff; padding-right: 20px;">CAREERS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: #fff;">BLOG</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <button class="btn" type="button" onclick="redirectToPage()">Search</button>
-            </form>
-        </div>
-    </nav>
+                </div>
+                <div class="nav-isShow-button">
+                    <button type="button" class="btn btn-primary">Menu</button>
+                </div>
+
+            </div>
+        </nav>
+    </header>
     <!-- nav end -->
+
+    <!-- Menu-functional-area start-->
+    <div class="Menu-functional-area">
+        <div class="Menu-close-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg"
+                viewBox="0 0 16 16">
+                <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+            </svg>
+        </div>
+        <div class="Menu-functionals">
+            <a href="./index.html" class="Menu-functionals-list">HOME</a>
+            <a href="#" class="Menu-functionals-list">SERVICES</a>
+            <div class="GSOC-functionals">
+                <a href="./guarding-service.html"></span>Guarding Service</a>
+                <a href="./system-service.html"></span>System Service</a>
+                <a href="./consulting-service.html"></span>Consulting Service</a>
+            </div>
+            <a href="./about-us.html" class="Menu-functionals-list">ABOUT</a>
+            <a href="./contact.html">CONTACT</a>
+            <button type="button" class="btn btn-danger"><a href="./redirect.html" class="redirect">Request
+                    Security</a></button>
+        </div>
+    </div>
+    <!-- Menu-functional-area end-->
 
     <!-- service one start -->
     <div class="container-fluid RISK overlay d-flex align-items-center"
@@ -96,8 +100,8 @@
                     <p style="width: 670px; font-size: 30px; margin-top: 20px;">
                         is a leading nationwide provider of security services trusted by the world’s largest brands.
                     </p>
-                    <button onclick="redirectToPage()" class="button" style="margin: 20px 0 0 0; padding: 0;">OUR
-                        SERVICES <i class="fa fa-caret-right" style="color: #fff;"></i></button>
+                    <button class="button" style="margin: 20px 0 0 0; padding: 0;" onclick="redirectToPage()">OUR
+                        CUSTOMERS <i class="fa fa-caret-right" style="color: #fff;"></i></button>
                 </div>
             </div>
         </div>
@@ -112,7 +116,7 @@
             <p style="font-size: 28px; padding: 0; margin: 0; color: #0F3B6C;">CONCERNS FOR U.S. BUSINESSES RELATED TO
                 GAZA</p>
         </div>
-        <button class="button" id="btn" onclick="redirectToPage()">INQUIRE</button>
+        <button class="button" id="btn">INQUIRE</button>
     </div>
     <!-- title -->
 
@@ -151,7 +155,7 @@
                                 threats.
                             </p>
                         </div>
-                        <a href="#" class="btn btn-dark"
+                        <a href="#" class="btn btn-dark" onclick="redirectToPagedemo()"
                             style="background-color: transparent; border: none; margin: 20px 0; padding: 0;">
                             READ MORE <i class="fa fa-caret-right" style="color: #C4283F;"></i>
                         </a>
@@ -473,7 +477,7 @@
                                         <div>
                                             <button onclick="redirectToPage()" class="btn" href="#" role="button"
                                                 style="color: #fff; text-align: center; background-color: #C4283F;">OUR
-                                                SERVICES <i class="fa fa-angle-right"></i></button>
+                                                CUSTOMERS <i class="fa fa-angle-right"></i></button>
                                         </div>
                                     </div>
                                 </div>
@@ -488,49 +492,28 @@
     <!-- service four end -->
 
     <!-- footer start -->
-    <div class="container-fluid" style="background-color: #272A2E; margin-top: 10%;">
-        <div class="row justify-content-md-around" style="padding: 3%;">
-            <div class="col-sm-auto">
-                <a class="navbar-brand" href="#" style="margin-left: 10px;">
-                    <img src="../public/images/pages-pic-01.png" width="260" height="52" alt="">
-                </a>
-            </div>
-            <div class="col-sm-auto" style="display: flex; align-items: center;">
-                <p style="color: #fff; padding: 0; margin: 0;">+1 (800)-590-2180 | EMERGENCY SUPPORT</p>
-            </div>
-            <div class="col-sm-auto">
-                <div class="icons" style="color: #fff;">
-                    <i class="fa fa-facebook-square fa-2x"></i>
-                    <i class="fa fa-instagram fa-2x"></i>
-                    <i class="fa fa-twitter fa-2x"></i>
-                    <i class="fa fa-linkedin fa-2x"></i>
-                </div>
+    <div class="container-fluid" style="background-color: #292A2F; margin-top: 10%;">
+        <div class="row justify-content-md-around">
+            <div class="col-sm-auto" style="color: #fff;">
+                <p class="title-text">SOME CONPANY ALOGAN</p>
             </div>
         </div>
         <hr style="background-color: #fff;">
         <div class="row justify-content-md-around" style="padding-bottom: 60px;">
             <div class="col-sm-auto" style="color: #fff;">
                 <p class="title-text">COMPANY</p>
-                <p>About Us</p>
-                <p>Leadership</p>
-                <p>Careers</p>
-                <p>Rewards and Recognition</p>
-                <p>Press</p>
-                <p>Privacy Policy</p>
+                <p style="font-size: 16px;">About Us</p>
             </div>
             <div class="col-sm-auto" style="color: #fff;">
                 <p class="title-text">SECURITY SERVICES</p>
-                <p>Site Services</p>
-                <p>Industries We Serve</p>
-                <p>GlobalSecurity Operations Center</p>
-                <p>Patrol Services</p>
+                <p style="font-size: 16px;">Guarding Service</p>
+                <p style="font-size: 16px;">System Service</p>
+                <p style="font-size: 16px;">Consulting Service</p>
             </div>
             <div class="col-sm-auto" style="color: #fff;">
                 <p class="title-text">CONTACT</p>
-                <p>HQ: 1 Blue Hill Plaza Suite 1538</p>
-                <p>Pearl River, NY 10965</p>
-                <p>Phone: 8o0-590-2180</p>
-                <p>info@brosnanrisk.com</p>
+                <p style="font-size: 16px;">Address:</p>
+                <p style="font-size: 16px;">E-Mail</p>
             </div>
         </div>
     </div>
@@ -539,6 +522,9 @@
     <script>
         function redirectToPage() {
             window.location.href = "redirect.html";
+        }
+        function redirectToPagedemo() {
+            window.location.href = "about-us.html";
         }
     </script>
 </body>
