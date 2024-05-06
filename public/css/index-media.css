@@ -28,28 +28,28 @@
     }
 
     /* Adjust styles for BROSNAN class */
-    .BROSNAN {
+    .DemoTwo {
         position: static !important;
         margin: 0 !important;
         padding: 0 !important;
         background: transparent !important;
     }
 
-    .BROSNAN-col {
+    .DemoTwo-col {
         position: static !important;
         top: 0 !important;
         right: 0 !important;
     }
 
     /* Adjust styles for INDUSTRIES class */
-    .INDUSTRIES {
+    .DemoThree {
         position: static !important;
         margin: 0 !important;
         padding: 0 !important;
         background: transparent !important;
     }
 
-    .INDUSTRIES-col {
+    .DemoThree-col {
         position: static !important;
         top: 0 !important;
         right: 0 !important;
@@ -58,13 +58,13 @@
     }
 
     /* Adjust styles for RISK class */
-    .RISK {
+    .DemoOne {
         position: static !important;
         margin: 0 !important;
         padding: 0 !important;
     }
 
-    .RISK-col {
+    .DemoOne-col {
         position: static !important;
         margin: 5px !important;
         padding: 0 !important;
@@ -77,11 +77,11 @@
     }
 
     /* Adjust styles for RISK column title */
-    .RISK-col-tit>span {
+    .DemoOne-col-tit>span {
         font-size: 28px !important;
     }
 
-    .RISK-col-tit>p {
+    .DemoOne-col-tit>p {
         width: 250px !important;
         font-size: 22px !important;
     }
