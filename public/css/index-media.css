@@ -1,0 +1,88 @@
+@media (max-width: 768px) {
+
+    /* Adjust margin for ul within collapse */
+    .collapse>ul {
+        margin-left: 10px;
+    }
+
+    /* Adjust margin for dropdown menu */
+    .dropdown-menu {
+        margin-top: 0;
+    }
+
+    /* Style for buttons within form-inline */
+    .form-inline>button {
+        width: 179px;
+        height: 20px;
+        font-size: 14px;
+        margin-left: 10px;
+        padding: 0;
+    }
+
+    /* Center align title content */
+    .title-con {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Adjust styles for BROSNAN class */
+    .DemoTwo {
+        position: static !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: transparent !important;
+    }
+
+    .DemoTwo-col {
+        position: static !important;
+        top: 0 !important;
+        right: 0 !important;
+    }
+
+    /* Adjust styles for INDUSTRIES class */
+    .DemoThree {
+        position: static !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: transparent !important;
+    }
+
+    .DemoThree-col {
+        position: static !important;
+        top: 0 !important;
+        right: 0 !important;
+        left: 0 !important;
+        bottom: 0 !important;
+    }
+
+    /* Adjust styles for RISK class */
+    .DemoOne {
+        position: static !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .DemoOne-col {
+        position: static !important;
+        margin: 5px !important;
+        padding: 0 !important;
+        margin-top: 250px !important;
+    }
+
+    /* Add overlay background color */
+    .overlay::before {
+        background-color: rgba(15, 59, 108, 0.2) !important;
+    }
+
+    /* Adjust styles for RISK column title */
+    .DemoOne-col-tit>span {
+        font-size: 28px !important;
+    }
+
+    .DemoOne-col-tit>p {
+        width: 250px !important;
+        font-size: 22px !important;
+    }
+}
