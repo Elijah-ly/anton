@@ -1,5 +1,49 @@
-
-.card{
-    border: 0;
+.container-login {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 50rem;
+    text-align: center;
 }
 
+.container-login h2 {
+    margin-bottom: 20px;
+}
+
+.container-login label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.container-login input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container-login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container-login button:hover {
+    background-color: #218838;
+}
+
+.container-login p {
+    margin-top: 20px;
+    color: red;
+}
+
+.card {
+    border: 0;
+}
